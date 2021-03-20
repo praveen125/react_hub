@@ -36,10 +36,10 @@ class Form extends Component {
         <div>
           <tabel>
             <tr>
-              <th>slno</th>
-              <th>name</th>
-              <th>edit</th>
-              <th>delete</th>
+              <th>No.</th>
+              <th>Name</th>
+              <th>Edit</th>
+              <th>Delete</th>
             </tr>
             {this.state.list.map((person, i) => (
               <tr>
